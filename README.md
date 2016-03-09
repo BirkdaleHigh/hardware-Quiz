@@ -24,3 +24,6 @@ The gist being;
 
 Now read 4 buttons and print something different depending on the button pressed. An example can be found in [template4buttons folder\]](template4buttons/template4buttons.ino)
 
+### 2. Make a simon says game
+
+You'll have to do some research for this one.
