@@ -5,32 +5,30 @@ var socket = io()
 var question = document.querySelector('#question')
 
 // Hold where the answers are displayed
-var answerA = document.querySelector('#answerA text')
-var answerB = document.querySelector('#answerB text')
-var answerC = document.querySelector('#answerC text')
-var answerC = document.querySelector('#answerD text')
+var answerA = document.querySelector('#a')
+var answerB = document.querySelector('#b')
+var answerC = document.querySelector('#c')
+var answerD = document.querySelector('#d')
 
 // listen for the answer to be clicked
-document.querySelector('#a')
-  .addEventListener('click', function(evt){
+answerA.addEventListener('click', function(evt){
       console.log('chosen answer is: ' + this.id)
 })
-document.querySelector('#b')
-  .addEventListener('click', function(evt){
+answerB.addEventListener('click', function(evt){
       console.log('chosen answer is: ' + this.id)
 })
-document.querySelector('#c')
-  .addEventListener('click', function(evt){
+answerC.addEventListener('click', function(evt){
       console.log('chosen answer is: ' + this.id)
 })
-document.querySelector('#d')
-  .addEventListener('click', function(evt){
+answerD.addEventListener('click', function(evt){
       console.log('chosen answer is: ' + this.id)
 })
 
 var answer = function answer(id){
-  //...  Referencing the raceClicks project. What might we want to emit here?
+  //...  Reference the raceClicks project.
+  // What might we want to emit here?
 }
 
 question.textContent = 'example.'
+
 answerA.textContent = 'A'

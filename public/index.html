@@ -7,28 +7,14 @@
   <script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
-  <svg id="template" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 7150 7130">
-	<text id="question" transform="matrix(1,0,0,1,409.86,1156.64)" xml:space="preserve" fill="#626262" font-family="@Gungsuh" font-size="910" font-weight="400" x="0" y="0">Queationous</text>
-	<g id="squares" transform="matrix(1,0,0,1,3230.56,3069.23)">
-		<path id="a" fill="#0057c9" fill-rule="evenodd" stroke="red" stroke-width="1.33333" d="M -2600.52,-1270.65 L 60.4453,-1270.65 L 60.4453,700.155 L -2600.52,700.155 Z "/>
-		<path id="b" fill="#c9bb00" fill-rule="evenodd" stroke="red" stroke-width="1.33333" d="M 621.792,-1256.73 L 3282.76,-1256.73 L 3282.76,714.079 L 621.792,714.079 Z "/>
-		<path id="c" fill="#008904" fill-rule="evenodd" stroke="red" stroke-width="1.33333" d="M -2598.81,1155.24 L 19.3027,1155.24 L 19.3027,3094.31 L -2598.81,3094.31 Z "/>
-		<path id="d" fill="#d31500" fill-rule="evenodd" stroke="red" stroke-width="1.33333" d="M 620.7,1130.29 L 3267.38,1130.29 L 3267.38,3090.51 L 620.7,3090.51 Z "/>
-	</g>
-	<g id="answerA" transform="matrix(1,0,0,1,1004.43,2685.59)">
-		<text id="dp_text003" xml:space="preserve" fill="#7d7d7d" font-family="@Gungsuh" font-size="498" font-weight="400" x="823.029" y="572.6">1</text>
-	</g>
-	<g id="answerB" transform="matrix(1,0,0,1,4233.01,2671.3)">
-		<text id="dp_text009" xml:space="preserve" fill="#7d7d7d" font-family="@Gungsuh" font-size="498" font-weight="400" x="823.029" y="572.6">2</text>
-    </g>
-	<g id="answerC" transform="matrix(1,0,0,1,975.863,5057.02)">
-		<text id="dp_text007" xml:space="preserve" fill="#7d7d7d" font-family="@Gungsuh" font-size="498" font-weight="400" x="823.029" y="572.6">3</text>
-	</g>
-	<g id="answerD" transform="matrix(1,0,0,1,4233.01,5057.02)">
-		<text id="dp_text005" xml:space="preserve" fill="#7d7d7d" font-family="@Gungsuh" font-size="498" font-weight="400" x="823.029" y="572.6">4</text>
-	</g>
-  </svg>
-
+  <h1 id="question">Queationous</h1>
+  
+  <div id="squares">
+    <div id="a" style="background: #0057c9">1</div>
+    <div id="b" style="background: #c9bb00">2</div>
+    <div id="c" style="background: #008904">3</div>
+    <div id="d" style="background: #d31500">4</div>
+  </div>
   
   <script src="client.js" type="application/javascript"></script>
 </body>
