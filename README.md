@@ -8,6 +8,13 @@
 - x1 Resistor (2.2Kohm)
 - Some wires and connectors
 
+## Code
+
+- Example server
+- Example event listeners
+
+This project requires node.js to run.
+
 ## Steps
 
 ### 0. Read a button
@@ -27,3 +34,9 @@ Now read 4 buttons and print something different depending on the button pressed
 ### 2. Make a simon says game
 
 You'll have to do some research for this one.
+
+Using the proided website in the `public` folder you could generate a sequence the buttons must be clicked in and validate the user input of the order.
+
+### 3. Add Scores to Simon
+
+Once you've got user input being validated you can start scoring progress. There is code included for this but you'll have to look at [raceClicks](https://github.com/BirkdaleHigh/raceClicks) for examples.

@@ -1,7 +1,7 @@
 {
   "name": "Quiz",
   "version": "1.0.0",
-  "description": "- Controller (arduino in this case)\r - x4 Buttons\r - x1 Resistor (2.2Kohm)\r - Some wires and connectors",
+  "description": "Quiz system that will also include hardware buttons to answer on a physical display",
   "main": "quiz.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
