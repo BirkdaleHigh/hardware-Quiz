@@ -20,9 +20,7 @@ answerB.addEventListener('click', function(evt){
 answerC.addEventListener('click', function(evt){
       console.log('chosen answer is: ' + this.id)
 })
-answerD.addEventListener('click', function(evt){
-      console.log('chosen answer is: ' + this.id)
-})
+//.. We're missing something, can you work out what?
 
 var answer = function answer(id){
   //...  Reference the raceClicks project.
